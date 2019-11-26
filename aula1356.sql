@@ -34,7 +34,7 @@ create trigger bi_vendas
        before insert on vendas
        for each row
          begin
-           select vendas_seq_nextval into :new.ven_codigo from dual;
+           select vendas_seq.nextval into :new.ven_codigo from dual;
          end;
 
 alter table vendas add constraint vendas_fk
