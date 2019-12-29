@@ -1,0 +1,1 @@
+--https://download.oracle.com/otn/java/sqldeveloper/sqldeveloper-19.2.1.247.2212-no-jre.zip?AuthParam=1577640805_31141be5453e409afa97261a814cc149
